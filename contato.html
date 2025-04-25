@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato - MAvi Consultoria</title>
+    <meta name="description" content="Entre em contato com a MAvi Consultoria para soluções em meio ambiente e segurança do trabalho.">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Cabeçalho -->
+    <header>
+        <div class="container header-container">
+            <div class="logo">
+                <img src="images/logo.jpg" alt="Logo MAvi Consultoria">
+            </div>
+            <div class="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="sobre.html">Sobre Nós</a></li>
+                    <li><a href="servicos.html">Serviços</a></li>
+                    <li><a href="contato.html" class="active">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h1>Entre em Contato</h1>
+            <p>Estamos prontos para atender suas necessidades em meio ambiente e segurança do trabalho</p>
+        </div>
+    </section>
+
+    <!-- Contato -->
+    <section class="contact">
+        <div class="container">
+            <h2 class="section-title">Fale Conosco</h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3>Informações de Contato</h3>
+                    <p>Entre em contato conosco para solicitar orçamentos, tirar dúvidas ou agendar uma reunião. Nossa equipe está pronta para atendê-lo com soluções personalizadas para sua empresa.</p>
+                    
+                    <div class="social-links">
+                        <h4>Redes Sociais</h4>
+                        <a href="https://www.instagram.com/" target="_blank">
+                            <i class="fab fa-instagram"></i> Instagram
+                        </a>
+                        <div style="margin-top: 20px;">
+                            <h4>Linktree</h4>
+                            <p>Em breve disponível</p>
+                        </div>
+                    </div>
+                    
+                    <div style="margin-top: 40px;">
+                        <h3>Localização</h3>
+                        <p>Macaé, Rio de Janeiro - Brasil</p>
+                    </div>
+                    
+                    <div style="margin-top: 40px;">
+                        <h3>Atendimento</h3>
+                        <p>A MAvi Consultoria oferece suporte completo, com atendimento diferenciado em horário comercial e disponibilidade para emergências mesmo em fins de semana e feriados, demonstrando alto grau de comprometimento com o sucesso dos projetos de seus clientes.</p>
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <h3>Envie sua Mensagem</h3>
+                    <form id="contact-form">
+                        <div class="form-group">
+                            <label for="name">Nome</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">E-mail</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Telefone</label>
+                            <input type="tel" id="phone" name="phone">
+                        </div>
+                        <div class="form-group">
+                            <label for="company">Empresa</label>
+                            <input type="text" id="company" name="company">
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Assunto</label>
+                            <input type="text" id="subject" name="subject" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Mensagem</label>
+                            <textarea id="message" name="message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn" style="background-color: var(--primary-color); color: var(--text-color); border: none; cursor: pointer; width: 100%;">Enviar Mensagem</button>
+                    </form>
+                    <div id="form-message" style="margin-top: 20px;"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Depoimentos -->
+    <section class="testimonials">
+        <div class="container">
+            <h2 class="section-title">Depoimentos de Clientes</h2>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <p class="testimonial-text">"A MAvi Consultoria nos ajudou a implementar um sistema de gestão ambiental eficiente, resultando em melhorias significativas em nossos processos e na redução de impactos ambientais."</p>
+                    <p class="testimonial-author">- Cliente do Setor Industrial</p>
+                </div>
+                <div class="testimonial-card">
+                    <p class="testimonial-text">"Excelente atendimento e profissionalismo. A equipe da MAvi nos auxiliou no processo de licenciamento ambiental com eficiência e agilidade."</p>
+                    <p class="testimonial-author">- Cliente do Setor de Construção Civil</p>
+                </div>
+                <div class="testimonial-card">
+                    <p class="testimonial-text">"Contratamos a MAvi para implementação da CIPA e programas de segurança do trabalho. O resultado foi uma redução significativa nos acidentes e um ambiente de trabalho mais seguro."</p>
+                    <p class="testimonial-author">- Cliente do Setor de Petróleo e Gás</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="images/logo.jpg" alt="Logo MAvi Consultoria">
+                    <p>Soluções em Meio Ambiente e Segurança do Trabalho</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Links Rápidos</h3>
+                    <ul>
+                        <li><a href="index.html">Início</a></li>
+                        <li><a href="sobre.html">Sobre Nós</a></li>
+                        <li><a href="servicos.html">Serviços</a></li>
+                        <li><a href="contato.html">Contato</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h3>Contato</h3>
+                    <ul>
+                        <li>Macaé, RJ</li>
+                        <li>
+                            <a href="https://www.instagram.com/" target="_blank">
+                                <i class="fab fa-instagram"></i> Instagram
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 MAvi Consultoria. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
